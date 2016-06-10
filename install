@@ -16,13 +16,13 @@ if [ -f ${HOME}/.vimrc ]; then
 	if [ ! -f ${HOME}/.vimrc.back ]; then
 		mv ${HOME}/.vimrc	${HOME}/.vimrc.back
 	fi
-	cp my-vim-conf/.vimrc ${HOME}/.vimrc
 fi
+cp my-vim-conf/.vimrc ${HOME}/.vimrc
 
 if [ -d {$HOME}/.vim ]; then
 	if [ ! -d ${HOME}/.vim.back]; then
 		mv ${HOME}.vim   ${HOME}/.vim/back
 	fi
-	cp -r my-vim-conf/  ${HOME}/.vim
 fi
+cp -r my-vim-conf/  ${HOME}/.vim
 

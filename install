@@ -6,7 +6,7 @@ if [ -d ${HOME}/my-vim-conf ]; then
 fi
 
 cd
-git clone https://github.com/SexyC/my-vim-conf.git ${HOME}
+git clone https://github.com/SexyC/my-vim-conf.git ${HOME}/my-vim-conf
 
 if [ ! ${HOME} ]; then
 	echo "failure, HOME env not set"

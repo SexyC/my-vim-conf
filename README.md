@@ -1,10 +1,5 @@
 # My Vim configuration file and plugins
 
-### Inlcuded files:
-
-1. vimrc
-2. plugins
-
 ### Install Method:
 
 **via curl**
@@ -18,3 +13,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/SexyC/my-vim-conf/master/i
 ```bash
 sh -c "$(wget https://raw.githubusercontent.com/SexyC/my-vim-conf/master/install -O -)"
 ```
+
+### Inlcuded files:
+
+1. vimrc
+2. plugins
+

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
 cp ${HOME}/.vimrc .
-git push
+git add --all
+git commit -m "update configure"
+git push origin master
 

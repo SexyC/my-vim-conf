@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/think/projects/fetch-info'
+let g:netrw_dirhist_2='/Users/think/Documents/资料/C++'
+let g:netrw_dirhist_3='/Users/think/Documents/资料/notes'
+let g:netrw_dirhist_4='/Users/think/.vim'

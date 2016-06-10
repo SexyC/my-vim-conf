@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-if [ -d my-vim-conf ]; then
-	echo "failure, already have my-vim-conf directory on the current directory"
+if [ -d ${HOME}/my-vim-conf ]; then
+	echo "failure, already have my-vim-conf directory on the home directory"
 	exit -1
 fi
 
-git clone https://github.com/SexyC/my-vim-conf.git
+cd
+git clone https://github.com/SexyC/my-vim-conf.git ${HOME}
 
 if [ ! ${HOME} ]; then
 	echo "failure, HOME env not set"
@@ -29,4 +30,6 @@ if [ -d ${HOME}/.vim ]; then
 	rm -rf ${HOME}/.vim
 fi
 cp -rf my-vim-conf/  ${HOME}/.vim
+
+cd -
 

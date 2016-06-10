@@ -21,9 +21,9 @@ cp my-vim-conf/.vimrc ${HOME}/.vimrc
 
 if [ -d {$HOME}/.vim ]; then
 	if [ ! -d ${HOME}/.vim.back]; then
-		mv ${HOME}.vim   ${HOME}/.vim/back
+		mv ${HOME}/.vim   ${HOME}/.vim/back
 	fi
-	rm -rf ${HOME}.vim/
+	rm -rf ${HOME}/.vim
 fi
 cp -rf my-vim-conf/  ${HOME}/.vim
 

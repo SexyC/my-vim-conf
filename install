@@ -23,6 +23,7 @@ if [ -d {$HOME}/.vim ]; then
 	if [ ! -d ${HOME}/.vim.back]; then
 		mv ${HOME}.vim   ${HOME}/.vim/back
 	fi
+	rm -rf ${HOME}.vim
 fi
 cp -rf my-vim-conf/  ${HOME}/.vim
 

@@ -76,6 +76,7 @@ set tags=tags
 set tags+=./tags "add current directory's generated tags file
 "set tags+=/Users/think/development/cocos2d-x-3.4/cocos/tags
 set tags+=/usr/include/c++/tags
+"set tags+=/Users/think/projects/target-pending/tags
 
 "-- Taglist setting --
 let Tlist_Ctags_Cmd='ctags' "因为我们放在环境变量里，所以可以直接执行

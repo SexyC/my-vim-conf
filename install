@@ -23,7 +23,7 @@ cp my-vim-conf/.vimrc ${HOME}/.vimrc
 
 if [ -d ${HOME}/.vim ]; then
 	echo "Warning: original .vim exist"
-	if [ ! -d ${HOME}/.vim.back]; then
+	if [ ! -d ${HOME}/.vim.back ]; then
 		mv ${HOME}/.vim   ${HOME}/.vim.back
 	fi
 	echo "Warning : delete original .vim"

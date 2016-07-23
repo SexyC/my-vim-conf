@@ -50,7 +50,8 @@ set whichwrap=b,s,<,>,[,] " 光标从行首和行末时可以跳到另一行去
 "set hidden " Hide buffers when they are abandoned
 set mouse=a            " Enable mouse usage (all modes)    "使用鼠标
 set number            " Enable line number    "显示行号
-"set previewwindow    " 标识预览窗口
+set relativenumber
+set previewwindow    " 标识预览窗口
 set history=50        " set command history to 50    "历史记录50条
 
 

@@ -1,7 +1,17 @@
 #!/usr/bin/env bash
 
+usage() {
+	echo "usage: ./upload <reason>"
+}
+
+if [ $# -ne 1 ]; then
+	usage
+	exit 1
+fi
+
 cp ${HOME}/.vimrc .
 git add --all
-git commit -m "update configure"
+#git commit -m "update configure"
+git commit -m $1
 git push origin master
 

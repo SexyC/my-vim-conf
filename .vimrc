@@ -102,6 +102,9 @@ let g:winManagerWindowLayout = "FileExplorer|TagList"
 let g:winManagerWidth = 30
 "winmanager
 nmap wm :WMToggle<CR>
+" fancy status bar
+set t_Co=256;
+"let g:Powerline_symbols="fancy";
 
 "-- QuickFix setting --
 " 按下F6，执行make clean
@@ -127,3 +130,5 @@ syntax enable
 "set background=dark
 "colorscheme solarized
 colorscheme desert
+
+

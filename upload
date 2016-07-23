@@ -11,7 +11,7 @@ fi
 
 cp ${HOME}/.vimrc .
 git add --all
-#git commit -m "update configure"
-git commit -m $1
+git commit -m "update configure"
+#git commit -m $1
 git push origin master
 

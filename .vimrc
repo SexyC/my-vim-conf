@@ -131,4 +131,6 @@ syntax enable
 "colorscheme solarized
 colorscheme desert
 
+" Add grep map
+nnoremap <silent> <F3> :GrepBuffer<CR>
 

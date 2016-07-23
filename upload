@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 
-usage() {
-	echo "usage: ./upload <reason>"
-}
-
-if [ $# -ne 1 ]; then
-	usage
-	exit 1
-fi
+#usage() {
+#	echo "usage: ./upload <reason>"
+#}
+#
+#if [ $# -ne 1 ]; then
+#	usage
+#	exit 1
+#fi
 
 cp ${HOME}/.vimrc .
 git add --all

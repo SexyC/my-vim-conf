@@ -6,6 +6,7 @@
 " NOTE: debian.vim sets 'nocompatible'. Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
 set nocompatible
+set backspace=indent,eol,start
 
 " Vim5 and later versions support syntax highlighting. Uncommenting the
 " following enables syntax highlighting by default.

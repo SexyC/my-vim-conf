@@ -6,6 +6,7 @@
 " NOTE: debian.vim sets 'nocompatible'. Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
 set nocompatible
+set backspace=indent,eol,start
 
 filetype off                  " required
 " set the runtime path to include Vundle and initialize

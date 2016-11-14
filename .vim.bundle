@@ -1,0 +1,8 @@
+Plugin 'winmanager'
+Plugin 'taglist.vim'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'suan/vim-instant-markdown'
+"Plugin 'Valloric/YouCompleteMe'
+Plugin 'ZoomWin'
+Plugin 'SexyC/MyCscopeMaps'

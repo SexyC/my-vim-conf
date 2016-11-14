@@ -158,3 +158,7 @@ colorscheme desert
 " Add grep map
 nnoremap <silent> <F3> :GrepBuffer<CR>
 
+" Buffy maps
+let g:buffy_default_key_binding = 0
+nnoremap <F8> :Buffy<CR>
+

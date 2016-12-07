@@ -72,7 +72,7 @@ set showmatch        " 设置匹配模式，显示匹配的括号
 set linebreak        " 整词换行
 set whichwrap=b,s,<,>,[,] " 光标从行首和行末时可以跳到另一行去
 "set hidden " Hide buffers when they are abandoned
-set mouse=a            " Enable mouse usage (all modes)    "使用鼠标
+set mouse=            " Disable mouse usage (all modes)    "使用鼠标
 set number            " Enable line number    "显示行号
 set relativenumber
 set previewwindow    " 标识预览窗口
@@ -158,6 +158,18 @@ colorscheme desert
 
 " Add grep map
 nnoremap <silent> <F3> :GrepBuffer<CR>
+
+" YCM related
+nnoremap <leader>jg :YcmCompleter GoTo<CR>
+nnoremap <leader>jd :YcmCompleter GoToDefinition<CR>
+nnoremap <leader>jc :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>ji :YcmCompleter GoToInclude<CR>
+nnoremap <leader>jf :YcmCompleter FixIt<CR>
+nnoremap <leader>jr :YcmCompleter RestartServer<CR>
+
+" close preview after we left the insert mode
+let g:ycm_autoclose_preview_window_after_insertion = 0
+
 
 " Buffy maps
 let g:buffy_default_key_binding = 0

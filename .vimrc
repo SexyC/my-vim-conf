@@ -125,7 +125,8 @@ let g:winManagerWindowLayout = "FileExplorer|TagList"
 "设置winmanager的宽度，默认为25
 let g:winManagerWidth = 30
 "winmanager
-nmap wm :WMToggle<CR>
+"nmap wm :WMToggle<CR>
+nnoremap <leader>wm :WMToggle<CR>
 " fancy status bar
 set t_Co=256;
 "let g:Powerline_symbols="fancy";

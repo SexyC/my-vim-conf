@@ -148,7 +148,7 @@ imap <F9> <ESC>:cn<CR>
 "快速映射esc
 imap jj <ESC>
 
-autocmd FileType javascript map <F5> :!iojs %<CR>
+autocmd FileType javascript map <F5> :!node % 
 
 syntax enable
 "set background=dark

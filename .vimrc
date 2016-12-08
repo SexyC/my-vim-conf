@@ -168,9 +168,9 @@ nnoremap <leader>jf :YcmCompleter FixIt<CR>
 nnoremap <leader>jr :YcmCompleter RestartServer<CR>
 
 " Conque related
-nnoremap <leader>cs :ConqueTermSplit zsh
-nnoremap <leader>cv :ConqueTermVSplit zsh
-nnoremap <leader>ct :ConqueTermTab zsh
+nnoremap <leader>cs :ConqueTermSplit zsh<CR>
+nnoremap <leader>cv :ConqueTermVSplit zsh<CR>
+nnoremap <leader>ct :ConqueTermTab zsh<CR>
 
 " close preview after we left the insert mode
 let g:ycm_autoclose_preview_window_after_insertion = 0

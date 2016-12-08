@@ -167,11 +167,16 @@ nnoremap <leader>ji :YcmCompleter GoToInclude<CR>
 nnoremap <leader>jf :YcmCompleter FixIt<CR>
 nnoremap <leader>jr :YcmCompleter RestartServer<CR>
 
+" Conque related
+nnoremap <leader>cs :ConqueTermSplit zsh
+nnoremap <leader>cv :ConqueTermVSplit zsh
+nnoremap <leader>ct :ConqueTermTab zsh
+
 " close preview after we left the insert mode
 let g:ycm_autoclose_preview_window_after_insertion = 0
 
 
 " Buffy maps
 let g:buffy_default_key_binding = 0
-nnoremap <F8> :Buffy<CR>
+nnoremap <leader>bu :Buffy<CR>
 

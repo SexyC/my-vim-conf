@@ -6,6 +6,7 @@
 " NOTE: debian.vim sets 'nocompatible'. Setting 'compatible' changes numerous
 " options, so any other options should be set AFTER setting 'compatible'.
 set nocompatible
+set backspace=indent,eol,start " backspace over everything in insert mode
 
 filetype off                  " required
 " set the runtime path to include Vundle and initialize
@@ -179,4 +180,7 @@ let g:ycm_autoclose_preview_window_after_insertion = 0
 " Buffy maps
 let g:buffy_default_key_binding = 0
 nnoremap <leader>bu :Buffy<CR>
+
+" load man.vim
+runtime! ftplugin/man.vim
 

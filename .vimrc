@@ -184,3 +184,10 @@ nnoremap <leader>bu :Buffy<CR>
 " load man.vim
 runtime! ftplugin/man.vim
 
+" Map arrows to window size adjustment
+nnoremap <Left> <C-w><
+nnoremap <Right> <C-w>>
+nnoremap <Up> <C-w>+
+nnoremap <Down> <C-w>-
+
+
